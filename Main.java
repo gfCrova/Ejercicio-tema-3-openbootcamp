@@ -6,8 +6,6 @@ public class Main {
         Coche miCoche = new Coche();
         miCoche.getPorts();
         miCoche.getPorts();
-        miCoche.getPorts();
-        miCoche.getPorts();
         System.out.println(miCoche.puertas);
     }
 
@@ -19,7 +17,7 @@ public class Main {
 
 class Coche {
 
-    public int puertas = 0;
+    public int puertas = 4;
 
     public void getPorts() {
         this.puertas++;
